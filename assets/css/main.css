@@ -1900,10 +1900,11 @@ input, select, textarea {
 		input[type="button"].whites2,
 		button.whites2,
 		.button.whites2 {
+			border: solid 4px !important;
 			position: relative;
 			margin-right: 0;
 			height: calc(2.8em + 2px);
-			line-height: 2.8em;
+			line-height: 2.4em;
 			border-color: white !important;
 			color: white !important;
 
@@ -3124,7 +3125,7 @@ input, select, textarea {
 				display: block;
 			}
 
-			.spotlights > section > .image:before {
+			/* .spotlights > section > .image:before {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
@@ -3138,7 +3139,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
-			}
+			} */
 
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
@@ -3183,14 +3184,14 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		.spotlights > section.inactive > .content > .inner,
+		/* .spotlights > section.inactive > .content > .inner,
 		body.is-preload .spotlights > section > .content > .inner {
 			-moz-transform: translateX(-1em);
 			-webkit-transform: translateX(-1em);
 			-ms-transform: translateX(-1em);
 			transform: translateX(-1em);
 			opacity: 0;
-		}
+		} */
 
 		@media screen and (max-width: 1680px) {
 
@@ -3988,6 +3989,13 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
+		background-attachment: fixed;
+		background-image: url("images/bg.jpg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#japCenter {
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: top right;
